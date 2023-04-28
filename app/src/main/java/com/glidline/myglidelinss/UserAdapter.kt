@@ -8,10 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.glidline.myglidelinss.model.User
+import com.glidline.myglidelinss.model.CustomerlistModel
+
 
 class UserAdapter(
-    private val userList: ArrayList<User>,
+    private var userList: ArrayList<CustomerlistModel.User>,
     private val context: Context,
     private val btnlistener :BtnClickListener
     ) : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
@@ -51,5 +52,10 @@ class UserAdapter(
     open interface BtnClickListener {
         fun onBtnClick(position: Int, type: String)
 
+    }
+
+    fun updateList(list: ArrayList<CustomerlistModel.User>) {
+        userList = list
+        notifyDataSetChanged()
     }
 }
