@@ -1,5 +1,6 @@
 package com.glidline.myglidelinss.activity
 
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.text.Editable
@@ -49,7 +50,7 @@ class CustomerDetailsList : AppCompatActivity() {
         recyclerView.adapter = userAdapter
         fetchUsers()
 
-
+// for Search by name
         ed_search.addTextChangedListener(object : TextWatcher {
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
                 val text = s.toString()
@@ -57,7 +58,7 @@ class CustomerDetailsList : AppCompatActivity() {
                     filteredUserList.clear()
                     if (userList.size > 0) {
                         for (i in 0 until userList.size) {
-                            if (userList.get(i).first_name.toLowerCase().contains(
+                            if (userList[i].first_name.toLowerCase().contains(
                                     "" + text.lowercase(
                                         Locale.getDefault()
                                     )
@@ -81,13 +82,6 @@ class CustomerDetailsList : AppCompatActivity() {
     }
 
     private fun fetchUsers() {
-
-//        sharedpreferences = getSharedPreferences("login", MODE_PRIVATE)
-//       val token =sharedpreferences!!.getString("token","")
-//        // set request headers
-//        val headers = HashMap<String, String>()
-//        headers["Authorization"] = "Bearer $token"
-
         val apiService = ApiClient.client.getUsers("Bearer $token")
         apiService.enqueue(object : Callback<Map<Any, Any>> {
             override fun onResponse(call: Call<Map<Any, Any>>, response: Response<Map<Any, Any>>) {
@@ -128,4 +122,10 @@ class CustomerDetailsList : AppCompatActivity() {
 
 
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, dashboard::class.java)
+        startActivity(intent)
+    }
+
 }

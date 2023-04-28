@@ -99,6 +99,9 @@ class dashboard : AppCompatActivity() {
             drawer!!.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed()
+//            val intent = Intent(this, SignIn::class.java)
+//            startActivity(intent)
         }
     }
+
     }
