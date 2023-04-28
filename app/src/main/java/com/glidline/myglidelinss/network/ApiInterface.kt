@@ -1,6 +1,5 @@
 package com.glidline.myglidelinss.network
 
-import com.glidline.myglidelinss.CustomerDetailsList
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded

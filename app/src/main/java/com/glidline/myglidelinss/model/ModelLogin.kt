@@ -1,4 +1,4 @@
-package com.glidline.myglidelinss
+package com.glidline.myglidelinss.model
 
 
 import com.google.gson.annotations.SerializedName

@@ -1,4 +1,4 @@
-package com.glidline.myglidelinss
+package com.glidline.myglidelinss.model
 
 data class CustomerlistModel(
     val status: Boolean,

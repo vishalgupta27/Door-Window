@@ -1,4 +1,4 @@
-package com.glidline.myglidelinss
+package com.glidline.myglidelinss.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -13,6 +13,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.glidline.myglidelinss.ApiClient
+import com.glidline.myglidelinss.model.ModelLogin
+import com.glidline.myglidelinss.R
 import com.glidline.myglidelinss.utils.isEmailValid
 import com.google.gson.Gson
 import org.json.JSONObject

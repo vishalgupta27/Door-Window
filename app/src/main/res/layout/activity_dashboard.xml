@@ -7,7 +7,7 @@
     android:id="@+id/drawer"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    tools:context=".dashboard">
+    tools:context=".activity.dashboard">
 
     <include layout="@layout/toolbar"
         android:layout_width="match_parent"

@@ -1,9 +1,10 @@
-package com.glidline.myglidelinss
+package com.glidline.myglidelinss.activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
+import com.glidline.myglidelinss.R
 
 class VerifyAccount : AppCompatActivity() {
 

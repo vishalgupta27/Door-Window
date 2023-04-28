@@ -1,74 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.CustomerDetailsList">
+
+
+    <include layout="@layout/top_bar" />
+
+    <include layout="@layout/view" />
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:context=".CustomerDetailsList">
+        android:layout_marginHorizontal="4dp"
+        android:padding="4dp">
 
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <include layout="@layout/top_bar" />
-
-
-        </RelativeLayout>
-        <include layout="@layout/view" />
-
-
-
-        <RelativeLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="4dp"
-            android:padding="4dp">
+            android:layout_centerVertical="true"
+            app:cardUseCompatPadding="true">
 
-            <androidx.cardview.widget.CardView
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                app:cardUseCompatPadding="true">
+                android:layout_height="wrap_content">
 
-                <RelativeLayout
+                <EditText
+                    android:id="@+id/ed_search"
+                    style="@style/textHeadNormal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/imgSearch"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/search"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="" />
 
-                    <EditText
-                        android:id="@+id/ed_search"
-                        style="@style/textHeadNormal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_toLeftOf="@+id/imgSearch"
-                        android:background="@android:color/transparent"
-                        android:hint="@string/search"
-                        android:padding="10dp"
-                        android:singleLine="true"
-                        android:text="" />
-
-                    <ImageView
-                        android:id="@+id/imgSearch"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:layout_margin="8dp"
-                        android:src="@drawable/icon_search" />
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
-
-        </RelativeLayout>
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/icon_search" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView
-
         android:id="@+id/peopleRV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,11 +64,9 @@
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
         app:spanCount="2"
-        tools:itemCount="4"
+        tools:itemCount="6"
         tools:listitem="@layout/user_item" />
 
 
-
-
-    </LinearLayout>
+</LinearLayout>
 

@@ -1,4 +1,4 @@
-package com.glidline.myglidelinss
+package com.glidline.myglidelinss.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,10 +12,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.glidline.myglidelinss.network.ApiInterface
+import com.glidline.myglidelinss.ApiClient
+import com.glidline.myglidelinss.model.ModelRegister
+import com.glidline.myglidelinss.R
 import com.glidline.myglidelinss.utils.isEmailValid
 import com.google.gson.Gson
-import com.google.gson.JsonObject
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
@@ -49,7 +50,7 @@ class SignUp : AppCompatActivity() {
         val tv_sign_in = findViewById<TextView>(R.id.tv_sign_in)
 
         tv_sign_in.setOnClickListener {
-            val intent = Intent(this,SignIn::class.java)
+            val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }
 
