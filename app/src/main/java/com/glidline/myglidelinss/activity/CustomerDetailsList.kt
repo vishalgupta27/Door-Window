@@ -95,7 +95,6 @@ class CustomerDetailsList : AppCompatActivity() {
                         val gson = Gson()
                         val objrespose =
                             gson.fromJson(gson.toJson(chat), CustomerlistModel::class.java)
-
                         if (objrespose.status) {
                             userList.addAll(objrespose.users)
                             userAdapter.notifyDataSetChanged()
@@ -104,24 +103,19 @@ class CustomerDetailsList : AppCompatActivity() {
                     }
                 } else {
                     Toast.makeText(this@CustomerDetailsList, response.message(), Toast.LENGTH_SHORT)
-                        .show()
-                }
+                        .show() }
 
             }
-
             override fun onFailure(call: Call<Map<Any, Any>>, t: Throwable) {
                 Toast.makeText(
                     this@CustomerDetailsList,
                     "Network Error: ${t.message}",
                     Toast.LENGTH_SHORT
                 ).show()
-
             }
-
         })
-
-
     }
+
     override fun onBackPressed() {
         super.onBackPressed()
         val intent = Intent(this, dashboard::class.java)
