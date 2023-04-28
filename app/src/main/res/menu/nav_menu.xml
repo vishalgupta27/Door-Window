@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:textSize="200sp"
+        android:title="Logout"  />
+
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_user"
+
+        android:title="User" />
+
+    <item
+        android:id="@+id/notificationsListFragment"
+        android:icon="@drawable/ic_notification"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_setting"
+        android:title="Settings" />
+</menu>

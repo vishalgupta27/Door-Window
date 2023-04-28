@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Door &amp; Window</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="your_email">Your Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="have_an_account">have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="please_enter_your_registered_email_or_mobile_number">Please enter your registered email or mobile number</string>
+    <string name="your_email_id">Your Email ID</string>
+    <string name="your_mobile_number">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="create_your_new_password">Create your new password</string>
+    <string name="new_password">New Password</string>
+    <string name="reset">Reset</string>
+    <string name="please_enter_4_digit_code_to_verify_your_account">Please enter 4 digit code to verify your account</string>
+    <string name="submit">Submit</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="your_password_has_been_changed_successfully">Your password has been changed successfully</string>
+    <string name="login">Login</string>
+    <string name="success">Success</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="leads">LEADS</string>
+    <string name="projects">PROJECTS</string>
+    <string name="orders">ORDERS</string>
+    <string name="invoices">INVOICES</string>
+    <string name="surveys">SURVEYS</string>
+    <string name="installations">INSTALLATIONS</string>
+    <string name="installationss">Installations</string>
+
+    <string name="services">SERVICES</string>
+    <string name="calender">CALENDAR</string>
+    <string name="production">PRODUCTION</string>
+    <string name="productionss">PRODUCTIONS</string>
+
+    <string name="products">PRODUCTS</string>
+    <string name="customers">CUSTOMERS</string>
+    <string name="connect">CONNECT</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="save">Save</string>
+    <string name="change_email">Change Email</string>
+    <string name="old_password">Old Password</string>
+    <string name="country_or_region">Country or region</string>
+    <string name="street_address">Street Address</string>
+    <string name="street_address_2_optional">Street Address 2 (Optional)</string>
+    <string name="city">City</string>
+    <string name="state_province_region">State/Province/Region</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="profile">Profile</string>
+    <string name="add_address">Add Address</string>
+    <string name="name">Name</string>
+    <string name="we_will_send_a_verification_mail_to_your_new_email">We will send a verification mail to your new email</string>
+    <string name="change_password">Change Password</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_valid_password">Please enter valid password</string>
+    <string name="please_enter_valid_zipcode">Please enter valid zipcode</string>
+    <string name="please_valid_enter_email">Please enter valid email.</string>
+    <string name="please_valid_enter_phone">Please  enter valid mobile number.</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="please_enter_full_name">Please enter full name</string>
+    <string name="please_enter_last_name">The last name field is required.</string>
+    <string name="please_confirm_enter_password">Please confirm enter password</string>
+    <string name="please_enter_valid_confirm_password">Please enter valid confirm password</string>
+    <string name="please_enter_valid_first_name">Please enter valid first name</string>
+    <string name="please_enter_valid_last_name">Please enter valid last name</string>
+    <string name="please_enter_valid_full_name">Please enter valid full name.</string>
+    <string name="please_enter_first_name">The first name field is required.</string>
+    <string name="the_title_is_required">The title field is required.</string>
+    <string name="please_enter_full_name_required">The full name field is required.</string>
+    <string name="please_enter_address_required">The address field is required.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="no_internet">No internet</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="logout">Logout</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="field_required">Field required</string>
+    <string name="please_email_last_name">The email field is required.</string>
+    <string name="please_password_last_name">The password field is required.</string>
+    <string name="please_Cpassword_last_name">The  confirm password field is required.</string>
+    <string name="please_mobile_number_last_name">The  mobile number field is required.</string>
+    <string name="press_again_toclose_door_and_window">Press again to close door and window</string>
+    <string name="create_lead">Create Lead</string>
+    <string name="lead_title">Lead Title</string>
+    <string name="source">Source</string>
+    <string name="description">Description</string>
+    <string name="select_customer">Select Customer</string>
+    <string name="lead">Lead</string>
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur_excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim_id_est_laborum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="status">Status</string>
+    <string name="leadss">Leads</string>
+    <string name="google_maps_key">AIzaSyAUgR9o0ia0yidBT_mj0Yzax3MYez_SrrY</string>
+    <string name="lead_in">Lead In</string>
+    <string name="search">Search..</string>
+    <string name="the_lead_title_field_is_required">The lead title field is required.</string>
+    <string name="The_description_field_is_required">The description field is required.</string>
+    <string name="the_source_field_is_required">The source field is required.</string>
+    <string name="please_select_source">Please select source.</string>
+    <string name="the_customer_field_is_required">The customer  field is required.</string>
+    <string name="please_select_customer">Please select customer.</string>
+    <string name="the_old_password_field_is_required">The old password field is required.</string>
+    <string name="the_new_password_field_is_required">The new password field is required.</string>
+    <string name="the_new_password_must_b_at_least_8_characters">The new password must be at least 8 characters.</string>
+    <string name="the_confirm_password_field_is_required">The confirm password field is required.</string>
+    <string name="the_confir_password_must_be_at_least_8_characters">The confirm password must be at least 8 characters.</string>
+    <string name="the_new_password_and_confirm_password_must_match">The new password and confirm password must match.</string>
+    <string name="please_enter_valid_city_name">Please enter valid city name</string>
+    <string name="please_enter_valid_state_name">Please enter valid state name</string>
+    <string name="email_address">Email Address</string>
+    <string name="start_date">Start Date</string>
+    <string name="add_project">Add Project</string>
+    <string name="estimated_end_date">Estimated End Date</string>
+    <string name="project">Project</string>
+    <string name="timeline">Timeline</string>
+    <string name="doc">Doc.</string>
+    <string name="project_details">Project Details</string>
+    <string name="cancel_project">Cancel Project</string>
+    <string name="team_assigned">Team Assigned</string>
+    <string name="see_all">See all</string>
+    <string name="click_here_to_upload_jpeg_pdf_and_dxf">Click here to upload Jpeg, Pdf and Dxf</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="please_enter_valid_name">Please enter valid name.</string>
+    <string name="the_start_date_is_required">The start date field is required.</string>
+    <string name="the_estimation_end_date_is_required">The estimated end date field is required.</string>
+    <string name="the_description_is_required">The description field is required.</string>
+    <string name="update_lead">Update Lead</string>
+    <string name="update">Update</string>
+    <string name="pleas_enter_company_name">Please enter company name.</string>
+    <string name="trade">Trade</string>
+    <string name="customer">Customer</string>
+    <string name="please_enter_valid_company_name">Please enter valid company name.</string>
+    <string name="update_project">Update project</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="company_name">Company Name</string>
+    <string name="create">Create</string>
+    <string name="no_record_found">No record found</string>
+    <string name="continuee">Continue</string>
+    <string name="lead_id">Lead ID-</string>
+    <string name="product_details">Product Details</string>
+    <string name="project_description">Project Description</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="order_title">Order Title</string>
+    <string name="title">Title</string>
+    <string name="order_description">Order Description</string>
+    <string name="product">Product</string>
+    <string name="product_type">Product Type</string>
+    <string name="glass_type">Glass Type</string>
+    <string name="create_order">Create Order</string>
+    <string name="trickle_vents">Trickle Vents</string>
+    <string name="dummy1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="order_details">Order Details</string>
+    <string name="the_title_field_is_required">The title field is required.</string>
+    <string name="the_description_field_is_required">The description field is required.</string>
+    <string name="the_height_field_is_required">The height field is required.</string>
+    <string name="the_width_field_is_required">The width field is required.</string>
+    <string name="project_quotation">Project Quotation</string>
+    <string name="glazing">Glazing</string>
+    <string name="hardware">Hardware</string>
+    <string name="style">Style</string>
+    <string name="color">Color</string>
+    <string name="price">Price</string>
+    <string name="outside">Outside</string>
+    <string name="inside">Inside</string>
+    <string name="frame_color">Frame Color</string>
+    <string name="frame_style">Frame Style</string>
+    <string name="project_type">Project Type</string>
+    <string name="invoice">Invoice</string>
+    <string name="schedule_Survey">Schedule Survey</string>
+    <string name="start_survey">Start Survey</string>
+    <string name="create_project">Create Project</string>
+    <string name="productss">Products</string>
+    <string name="survey">Survey</string>
+    <string name="remark">Remark</string>
+    <string name="upload_document">Upload document</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="add_documents">Add Documents</string>
+    <string name="document_title">Document Title</string>
+    <string name="imgae_title">Image Title</string>
+    <string name="click_here_to_upload_site_images">Click here to upload site images</string>
+    <string name="installation_has_been_completed_successfully">Installation has been completed successfully</string>
+    <string name="installed">Installed</string>
+    <string name="issue_guarantee">Issue Guarantee</string>
+    <string name="installation_status">Installation Status</string>
+    <string name="service_call">Service Call</string>
+    <string name="book_service_call">Book Service Call</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="service_call_date">Service Call Date</string>
+    <string name="issue">Issue</string>
+    <string name="select_address">Select Address</string>
+    <string name="select_engineer">Select Engineer</string>
+    <string name="view_details">View details</string>
+    <string name="review">Review</string>
+    <string name="add_edit_review">Add / Edit Review</string>
+    <string name="service_call_initiated">Service Call Initiated</string>
+    <string name="completed">Completed</string>
+    <string name="service">Service</string>
+    <string name="site_address">Site Address</string>
+    <string name="productions">Productions</string>
+    <string name="details">Details</string>
+    <string name="documents">Documents</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="projectss">Projects</string>
+    <string name="comment">Comment</string>
+    <string name="notification">Notifications</string>
+    <string name="invoicess">Invoices</string>
+    <string name="orderss">Orders</string>
+    <string name="events">Events</string>
+    <string name="customerss">Customers</string>
+    <string name="update_customer">Edit Customer</string>
+    <string name="surveyss">Surveys</string>
+    <string name="installation">Installation</string>
+    <string name="please_enter_comment">Please enter comment</string>
+    <string name="comments">Comments</string>
+    <string name="USERS">USERS</string>
+    <string name="select_productss">Select Productss</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="please_select_product">Please select product.</string>
+    <string name="edit_comment">Edit Comment</string>
+    <string name="are_sure_you_want_delete_comment">Are you sure you want to delete this comment?</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="invoicedetails">Invoice Details</string>
+    <string name="view_Survey">View Survey</string>
+    <string name="survey_time">Survey Time</string>
+    <string name="customer_dimensions">Customer Dimensions</string>
+    <string name="surveys_details">Surveys details</string>
+    <string name="viewdetails">View Details</string>
+    <string name="delete_document">Delete Document</string>
+    <string name="are_sure_you_want_delete_doc">Are you sure you want to delete this document?</string>
+    <string name="update_document">Update document</string>
+    <string name="are_sure_you_want_want_update">Are you want to update</string>
+    <string name="pdftron_license_key_value">Glideline Limited (glideline.com):PWS:Glideline Limited::B+2:7933B592DD61815C33A681734AA1DD04DD5DB8AFED91905CDE1F9B0E4C7AF0EFFEF62E5F26BD</string>
+    <string name="start_installation">Start Installation</string>
+    <string name="drawings">Drawings</string>
+    <string name="survey_comments">Survey Comments</string>
+    <string name="write_your_comments">Write Your Comments</string>
+    <string name="DRAWINGS">DRAWINGS</string>
+    <string name="quotations">Quotations</string>
+    <string name="QUOTES">QUOTES</string>
+    <string name="create_quote">Create Quote</string>
+    <string name="viewguarantee">View Guarantee</string>
+    <string name="supply_only">Supply Only</string>
+    <string name="project_type_optional">Project Type(Optional)</string>
+    <string name="upload">Upload</string>
+
+    <string-array name="country_arrays">
+        <item>Select Country</item>
+        <item>Malaysia</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+        <item>Portugal</item>
+    </string-array>
+
+
+    <string-array name="customerStatus">
+
+        <item>Need Quoting</item>
+
+    </string-array>
+
+    <string-array name="source">
+
+        <item>Homeowner</item>
+        <item>Trade </item>
+    </string-array>
+
+    <string-array name="product_type">
+
+        <item>Product config</item>
+
+    </string-array>
+    <string-array name="product_select">
+
+        <item>Select Products</item>
+
+    </string-array>
+
+
+    <string-array name="beulah_grant">
+
+        <item>Beulah Grant</item>
+
+    </string-array>
+    <string-array name="select">
+
+        <item>Select</item>
+
+    </string-array>
+
+    <string-array name="yes_no">
+
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string-array name="source_order">
+
+        <item>Supply installation</item>
+        <item>Supply</item>
+
+    </string-array>
+
+    <string-array name="quote_type">
+
+        <item>Select type</item>
+        <item>Supply Only</item>
+        <item>Supply and Installation</item>
+
+    </string-array>
+</resources>

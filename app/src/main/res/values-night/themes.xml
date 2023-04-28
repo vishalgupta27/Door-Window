@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Myglidelinss" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+<!--        <item name="colorPrimary">@color/purple_200</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/appColor</item>-->
+<!--        <item name="colorSecondaryVariant">@color/appColor</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+<!--        <item name="android:forceDarkAllowed" tools:targetApi="s">false</item>-->
+
+<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="textHeadBoldNormal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+
+        <item name="android:textColor">@color/text_head</item>
+    </style>
+
+    <style name="textHeadNormal">
+        <item name="drawableTint">@color/text_head</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/text_head</item>
+    </style>
+
+    <style name="textTitleBold">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="drawableTint">@color/text_head</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+
+    <style name="textTitleNormal">
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="drawableTint">@color/text_light_blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+    <style name="textNormal">
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+<!--    <style name="editTextNormal">-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--        <item name="singleLine">true</item>-->
+<!--        <item name="fontFamily">@font/poppins_semibold</item>-->
+
+<!--&lt;!&ndash;        <item name="drawableTint">@color/text_light_blue</item>&ndash;&gt;-->
+<!--        <item name="background">@drawable/box_background</item>-->
+<!--&lt;!&ndash;        <item name="android:textColor">@color/text_light_blue</item>&ndash;&gt;-->
+<!--    </style>-->
+
+    <style name="editTextNormal">-->
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="drawableTint">@color/text_light_blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="background">@drawable/box_button_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <color name="layoutColor">@color/black</color>
+    <color name="grey">#303030</color>
+
+    <style name="validationNormal">
+        <item name="drawableTint">@color/red_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/red_color</item>
+    </style>
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="tabBarON">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="background">@drawable/box_button_background</item>
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="tabBarOF">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="background">@drawable/box_button_background_white</item>
+
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+
+
+    <style name="editTextNormalSemi">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+
+        <item name="android:textColor">@color/text_light_blue</item>
+    </style>
+    <style name="SwitchCompatTheme" >
+        <item name="colorControlActivated">@color/appColor</item>
+    </style>
+
+</resources>
